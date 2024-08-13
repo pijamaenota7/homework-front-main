@@ -1,0 +1,50 @@
+.button {
+    border-radius: 3px;
+    padding: 25px 5px;
+    width: 100%;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px
+}
+
+.disabled {
+    color: #002E5C;
+    opacity: 0.5;
+    background: #004D99;
+}
+
+.secondary {
+    border-radius: 3px;
+    border: 1px solid #06C;
+    background: transparent;
+}
+
+.default {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.red {
+    color: #fff;
+    background: #CC1439;
+}
+
+.default:hover {}
+
+.red:hover {}
+
+.secondary:hover {}
+
+
+.default:active {}
+
+.secondary:active {}
+
+.red:active {}
+
+.button:disabled {}
